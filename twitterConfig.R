@@ -8,6 +8,7 @@ library("twitteR")
 # To get your consumerKey and consumerSecret see the 
 # twitteR documentation for instructions.
 # **************************************************
+
 consumer_key <- ''
 consumer_secret <- ''
 access_token <- ''
