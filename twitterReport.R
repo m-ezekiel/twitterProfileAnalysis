@@ -13,7 +13,7 @@ source('userTimeline_Fxn.R')
 
 ```{r, echo=FALSE}
 # Setup
-user <- "twitter_user"
+user <- "cnn"
 n <- 15
 ```
 
@@ -25,9 +25,9 @@ n <- 15
 
 ```{r, echo=FALSE}
 # Hashtags table
-Hashtags <- userTimeline_stats_fXn(user, n, replies = FALSE)
+Hashtags <- userTimeline_Fxn(user, n, replies = FALSE)
 # Engagement table
-Engagement <- sort(userTimeline_stats_fXn(user, n, replies = TRUE))
+Engagement <- sort(userTimeline_Fxn(user, n, replies = TRUE))
 
 # Engagement user descriptions
 for(i in 1:length(Engagement)) {
