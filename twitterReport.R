@@ -1,6 +1,6 @@
 ---
 title: "Twitter Hashtag and Engagement Report"
-author: "Compiled for private client by Mario Ezekiel (m-ezekiel.com)"
+author: "(m-ezekiel.com) // @m_ezkiel"
 date: "Day/Month/Year"
 output: html_document
 ---
