@@ -1,5 +1,6 @@
-# twitterProfileAnalysis: README
-A social listening prototype for analyzing the network engagement and hashtag frequencies of a user's most recent social media updates.
+# Twitter Profile Analysis Documentation
+
+Description: A social listening prototype for analyzing the network engagement and hashtag frequencies of a user's most recent social media updates.
 
 twitterConfig.R - Sourcefile to access the twitter rest API.
 
