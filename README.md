@@ -1,6 +1,7 @@
-# Twitter Profile Analysis Documentation
+# Twitter Profile Analysis
 
-A social listening prototype for analyzing the network engagement and hashtag frequencies of a user's most recent social media updates on Twitter.
+The files contained in this repository will generate an html document with a summary of a user's most frequent hashtags along with descriptions of public user accounts with which they have either replied to or retweeted.
+
 
 ## Setup
 
