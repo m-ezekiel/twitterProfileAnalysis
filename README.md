@@ -1,6 +1,6 @@
 # Twitter Profile Analysis Documentation
 
-Description: A social listening prototype for analyzing the network engagement and hashtag frequencies of a user's most recent social media updates.
+A social listening prototype for analyzing the network engagement and hashtag frequencies of a user's most recent social media updates on Twitter.
 
 ## Setup
 
@@ -8,20 +8,38 @@ Description: A social listening prototype for analyzing the network engagement a
 - [R version 3.3.3+](https://www.r-project.org)
 - Latest version of [RStudio](https://www.rstudio.com)
 
-### Getting Started
+### Installation
 
-After you install both R and RStudio, download the files in this repository and open twitterConfig.R to enter your account credentials.
+Open RStudio and enter the following into the interactive command line to install the "Twitter" package.
 
 ```r
 # Install the 'twitteR' package
-install.packages("twitter")
+install.packages("twitteR")
 ```
 
+You will need a Twitter developer account to complete the next step.  If you do not yet have one, follow these [instructions](https://www.credera.com/blog/business-intelligence/twitter-analytics-using-r-part-1-extract-tweets/) before you proceed.
+
+Open twitterConfig.R and enter your authentication credentials to access the Twitter rest API.
+
+```r
+# Filename: twitterConfig.R
+# Created: April 21, 2016 
+# Description: sourcefile for scripts requiring the 'twitteR' package
+
+library("twitteR")
+
+consumer_key <- 'XXXXXXXX'
+consumer_secret <- 'XXXXXXXX'
+access_token <- 'XXXXXXXX'
+access_secret <- 'XXXXXXXX'
+setup_twitter_oauth(consumer_key,
+                    consumer_secret,
+                    access_token,
+                    access_secret)
+```
+
+## Getting Started
+
+Now that everything is installed, open the file R markdown file "twitterReport.Rmd".
 
 
-
-twitterConfig.R - Sourcefile to access the twitter rest API.
-
-userTimeline_Fxn.R - Function that uses regular expressions to isolate hashtags and engagement tags.
-
-twitterReport.Rmd - R markdown file that outputs the hashtag/engagement report as an html document.
