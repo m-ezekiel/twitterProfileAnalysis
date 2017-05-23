@@ -1,7 +1,8 @@
 # Twitter Profile Analysis
 
-The files contained in this repository will generate an html document with a summary of a user's most frequent hashtags along with descriptions of public user accounts with which they have either replied to or retweeted.
+This repository contains files for a social listening prototype that summarizes the network engagement and hashtag usage of a Twitter user's most recent social media messages.
 
+The underlying processing algorithm uses regular expressions to isolate words that have been tagged with the "@" or "#" symbols and tabulates occurrence frequencies based on their appearance in the n-sized tweet corpus (in the example below, n=60).
 
 ## Setup
 
