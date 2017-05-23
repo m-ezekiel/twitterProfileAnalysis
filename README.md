@@ -52,5 +52,7 @@ Click "Knit HTML" to create an html document of the user's most recent n tweets.
 
 <img src="http://i.imgur.com/klI47Xu.jpg" width="600px"/>
 
+The final output will show the name and description of the target account along with 3 boxes containing the most frequently used hashtags, the users who were either retweeted or replied to, and the descriptions of the associated accounts ordered alphabetically.
+
 <img src="http://i.imgur.com/UkSLQtK.png" width="900px"/>
 
