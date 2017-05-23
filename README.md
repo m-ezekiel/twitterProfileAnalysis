@@ -40,6 +40,17 @@ setup_twitter_oauth(consumer_key,
 
 ## Getting Started
 
-Now that everything is installed, open the file R markdown file "twitterReport.Rmd".
+Now that everything is installed, open the file R Markdown file "twitterReport.Rmd".  Enter the name of the account for which you wish to generate a report.  You may also specify the number of tweets for the algorithm to retrieve and parse by changing the numerical value of "n".
 
+```r
+# Setup
+user <- "QueriumCorp"
+n <- 60
+```
+
+Click "Knit HTML" to create an html document of the user's most recent n tweets.
+
+<img src="http://i.imgur.com/klI47Xu.jpg" width="900px"/>
+
+<img src="http://i.imgur.com/UkSLQtK.png" width="900px"/>
 
