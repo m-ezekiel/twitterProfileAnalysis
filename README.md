@@ -50,7 +50,7 @@ n <- 60
 
 Click "Knit HTML" to create an html document of the user's most recent n tweets.
 
-<img src="http://i.imgur.com/klI47Xu.jpg" width="900px"/>
+<img src="http://i.imgur.com/klI47Xu.jpg" width="600px"/>
 
 <img src="http://i.imgur.com/UkSLQtK.png" width="900px"/>
 
