@@ -11,7 +11,7 @@ The files contained in this repository will generate an html document with a sum
 
 ### Installation
 
-Open RStudio and enter the following into the interactive command line to install the "twitteR" package.
+Open RStudio and enter the following into the interactive command line to install the [*twitteR* package](https://cran.r-project.org/web/packages/twitteR/twitteR.pdf).
 
 ```r
 # Install the 'twitteR' package
