@@ -10,7 +10,7 @@ A social listening prototype for analyzing the network engagement and hashtag fr
 
 ### Installation
 
-Open RStudio and enter the following into the interactive command line to install the "Twitter" package.
+Open RStudio and enter the following into the interactive command line to install the "twitteR" package.
 
 ```r
 # Install the 'twitteR' package
@@ -19,7 +19,7 @@ install.packages("twitteR")
 
 You will need a Twitter developer account to complete the next step.  If you do not yet have one, follow these [instructions](https://www.credera.com/blog/business-intelligence/twitter-analytics-using-r-part-1-extract-tweets/) before you proceed.
 
-Open twitterConfig.R and enter your authentication credentials to access the Twitter rest API.
+Open *twitterConfig.R* and enter your authentication credentials to access the Twitter rest API.
 
 ```r
 # Filename: twitterConfig.R
@@ -40,7 +40,7 @@ setup_twitter_oauth(consumer_key,
 
 ## Getting Started
 
-Now that everything is installed, open the file R Markdown file "twitterReport.Rmd".  Enter the name of the account for which you wish to generate a report.  You may also specify the number of tweets for the algorithm to retrieve and parse by changing the numerical value of "n".
+Now that everything is installed, open the file R Markdown file *twitterReport.Rmd*.  Enter the name of the account for which you wish to generate a report.  You may also specify the number of tweets for the algorithm to retrieve and parse by changing the numerical value of "n".
 
 ```r
 # Setup
